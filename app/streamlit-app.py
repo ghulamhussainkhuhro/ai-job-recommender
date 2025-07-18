@@ -6,14 +6,14 @@ from backend.recommender import extract_text_from_pdf, recommend_roles
 
 st.set_page_config(page_title="AI Job Recommender", layout="centered")
 
-st.title("🧠 AI Job Recommender")
+st.title("AI Job Recommender")
 st.markdown("Upload your resume and specify your career goal to get AI-powered job role suggestions.")
 
 # Upload PDF
 resume_file = st.file_uploader("📄 Upload your resume (PDF)", type=["pdf"])
-career_goal = st.text_input("🎯 Your career goal (e.g. 'Computer Vision Engineer')")
+career_goal = st.text_input("Your career goal (e.g. 'Computer Vision Engineer')")
 
-if st.button("🚀 Get Recommendations"):
+if st.button("Get Recommendations"):
     if resume_file and career_goal:
         with st.spinner("Analyzing your resume..."):
             resume_text = extract_text_from_pdf(resume_file)
