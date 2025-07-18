@@ -94,11 +94,16 @@ langchain
 langchain-openai
 ```
 
-👨‍💻 **Author**  
+## 👨‍💻 About Me
+
 **Ghulam Hussain Khuhro**  
-AI/ML Engineer | GPT/LLM Developer  
-📫 ghulamhussain.developer@gmail.com  
-🔗 LinkedIn • GitHub • Portfolio
+AI/ML Engineer · Data Scientist · Google-Certified Data Analyst  
+📬 ghulamhussain.developer@gmail.com  
+🌐 [LinkedIn](https://www.linkedin.com/in/ghulamhussainkhuhro/) • [GitHub](https://github.com/ghulamhussainkhuhro/) • [Portfolio](https://ghulamhussainkhuhro.github.io/)
+
+---
+
+If this project interests you or you'd like to collaborate, feel free to connect. Feedback and contributions are always welcome!
 
 📌 **Disclaimer**  
 This app is for educational and demonstration purposes. For production usage, ensure data security, model robustness, and deployment best practices.
